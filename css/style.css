@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.contanier{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #0000002e;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #8e8e8e54;
+}
+nav ul{}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin: 0 35px;
+    color: #333;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    font-weight: 700;
+    color: #ff5a6e;
+    text-shadow: 0px 0px 2px #333;
+    transform-style: flat;
+    transition: auto;
+}
+nav ul li img{}
+body{
+    background-image: url(../img/bg-hero.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.hero_section{
+    padding: 0px 0px;
+}
+.left{
+    float: left;
+    width: 50%;
+    padding: 60px;
+}
+.right{
+    float: left;
+    width: 50%;
+    padding: 78px;
+}
+.left h1{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 14px;
+}
+.left h4{
+    color: #fff;
+    font-size: 22px;
+}
+form{
+    background-color: #dedada4a;
+    padding: 30px 30px 40px 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+form input{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+form span{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+form input[type="submit"]{
+    background-color: #ff5a6e;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+}
+form input[type="submit"] a:hover{
+    background-color: #000;
+}
+#link{
+    transition: all 0.4s ease;
+}
+#link:hover{
+    background-color: #fff;
+    color: #ff5a6e;
+    font-weight: 500;
+    text-shadow: 0 0 2px #b5b5b59e;
+}
+form h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: initial;
+    text-align: center;
+}
+form a{
+    text-decoration: none;
+    color: #303779;
+}
+form a:hover{
+    color: #ff5a6e;
+}
+.col_6{
+    width: 50%;
+    float: left;
+}
+.feature{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.feature ul{
+    padding: 26px;
+}
+.feature ul li{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 12px;
+}
+.feature ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.feature ul li a:hover{
+    color:;
+    color: #ff5a6e;
+}
